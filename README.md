@@ -40,6 +40,11 @@ The notebook is organized as follows:
 
 5. **Data Storage**:
    - After completing the scraping process, the enhanced DataFrame, now containing song metadata along with the lyrics, is exported and saved as a CSV file (`song_lyrics_80s.csv`).
+  
+## Additional Remark: Data Cleaning Required
+It's important to note that the scraped lyrics data may require further cleaning. The div class containing the lyrics also includes additional information such as the writer's name, composer's name, and other details. These elements are part of the HTML structure of the source web pages and are extracted along with the lyrics.
+
+As a result, users of this dataset should anticipate the need for a post-scraping cleaning process. This process would involve parsing and removing unwanted text (like writer and composer names) to isolate the lyrics. The complexity of this cleaning task will vary based on the consistency of the data format across different songs.
 
 ## Usage
 
