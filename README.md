@@ -15,17 +15,26 @@ The notebook is organized as follows:
 
 1. **Setup**: Import necessary Python libraries like `bs4` (Beautiful Soup) for web scraping and `requests` for handling HTTP requests
 
-2. **Initial Data Scraping**: 
+   ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/124a341c-95ea-439e-a982-2951e6c454a0)
+
+3. **Initial Data Scraping**: 
    - The first stage involves scraping the JOOX playlist to gather song names and their corresponding URLs which lead to the song lyrics.
+
+     ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/23137b46-4c7c-427a-ae94-10a9b3f5e795)
+     ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/84ea7ef0-43f1-4034-9820-52e407a2061f)
+
    - This data is then stored in a DataFrame, providing a structured format for the list of songs and their respective URLs.
 
-3. **Lyrics Scraping**:
+     ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/0f08fd27-089c-418f-b737-0d0680cdfdc9)
+
+
+4. **Lyrics Scraping**:
    - In the second stage, the notebook iterates through each URL in the DataFrame.
    - For each song URL, an HTTP request is made, and the HTML content of the page is parsed using Beautiful Soup.
    - The script specifically searches for a `div` tag with the class `'jsx-804686892 renderLyrics'`, which is containing the lyrics.
    - If lyrics are found, they are extracted and added to the DataFrame; otherwise, a placeholder text such as "Lyrics not found" is recorded.
 
-4. **Data Storage**:
+5. **Data Storage**:
    - After completing the scraping process, the enhanced DataFrame, now containing song metadata along with the lyrics, is exported and saved as a CSV file (`song_lyrics_80s.csv`).
 
 ## Usage
