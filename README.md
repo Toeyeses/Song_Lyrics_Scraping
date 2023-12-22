@@ -20,7 +20,8 @@ The notebook is organized as follows:
 3. **Initial Data Scraping**: 
    - The first stage involves scraping the JOOX playlist to gather song names and their corresponding URLs which lead to the song lyrics.
 
-     ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/23137b46-4c7c-427a-ae94-10a9b3f5e795)
+     ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/9f928536-e092-49aa-a2f7-b4c228767b9e)
+
      ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/84ea7ef0-43f1-4034-9820-52e407a2061f)
 
    - This data is then stored in a DataFrame, providing a structured format for the list of songs and their respective URLs.
