@@ -33,6 +33,9 @@ The notebook is organized as follows:
    - In the second stage, the notebook iterates through each URL in the DataFrame.
    - For each song URL, an HTTP request is made, and the HTML content of the page is parsed using Beautiful Soup.
    - The script specifically searches for a `div` tag with the class `'jsx-804686892 renderLyrics'`, which is containing the lyrics.
+
+     ![image](https://github.com/Toeyeses/Song_Lyrics_Scraping/assets/128026055/2450042f-6a24-48f1-b6c4-daad16ffb100)
+
    - If lyrics are found, they are extracted and added to the DataFrame; otherwise, a placeholder text such as "Lyrics not found" is recorded.
 
 5. **Data Storage**:
