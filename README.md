@@ -6,7 +6,7 @@ This repository contains a Jupyter notebook titled `lyrics_scraping.ipynb`, whic
 
 You can run and interact with the notebook directly in your browser using Google Colab:
 
-[![Open In Colab](https://[colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/drive/1HhWS6zsM7lgsA6b8k4cXAz-nptoVin9R))]
+[![Open In Colab]([[colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/drive/1HhWS6zsM7lgsA6b8k4cXAz-nptoVin9R)](https://colab.research.google.com/drive/1UHBxvGJfmF5_o-wbeKwtyuKVC_A9H8BQ))]
 
 ## Overview
 
