@@ -2,6 +2,13 @@
 
 This repository contains a Jupyter notebook titled `lyrics_scraping.ipynb`, which is designed for scraping song lyrics from the 1980s, specifically from a playlist on JOOX. The notebook demonstrates a two-step process: initially scraping the names and URLs of songs from the JOOX playlist, followed by visiting each URL to scrape the lyrics of each song.
 
+## Run the Notebook in Google Colab
+
+You can run and interact with the notebook directly in your browser using Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UHBxvGJfmF5_o-wbeKwtyuKVC_A9H8BQ)
+
+
 ## Overview
 
 The notebook is organized as follows:
